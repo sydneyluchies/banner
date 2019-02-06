@@ -19,15 +19,24 @@ html {
   box-sizing: inherit;
 }
 
+figure{
+   max-height:515px;
+   overflow: hidden;
+   margin:0;
+}
+
 .img-flex {
   display: block;
   width: 100%;
 }
 
 .banner {
-
+  position: relative;
 }
 
 .banner-content {
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
 }
